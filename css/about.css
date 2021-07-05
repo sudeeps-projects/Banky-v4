@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #2d3436;
+}
+
+p {
+  color: #fff;
+  font-size: 18px;
+  font-family: "Nunito";
+  line-height: 1.5;
+  width: 600px;
+  max-height: 800px;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding-right: 20px;
+}
